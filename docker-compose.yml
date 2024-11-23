@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  ffmpeg:
+    image: jrottenberg/ffmpeg:latest # Usa uma imagem oficial do FFmpeg
+    container_name: ffmpeg_container
+    volumes:
+      - ./videos:/videos    # Monta o diretório local "videos" no contêiner
+    working_dir: /videos    # Define o diretório de trabalho no contêiner
+    stdin_open: true        # Mantém o contêiner aberto para comandos interativos
+    tty: true               # Permite sessões interativas
