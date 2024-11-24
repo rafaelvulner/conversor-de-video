@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ConversorDeVideo
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+paths:
+  ffmpeg: ${FFMPEG_PATH}
+  output: ${OUTPUT_PATH}

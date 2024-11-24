@@ -24,3 +24,18 @@ Todos os arquivos essenciais para a execução e manutenção do aplicativo, com
 ## Contribuições
 
 Para quaisquer problemas, consultas ou sugestões, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+## Débitos Técnicos
+
+Embora a aplicação **Conversor de Vídeo** esteja funcional, existem algumas áreas que requerem atenção futura para melhorar a qualidade do código e a manutenção do projeto. Aqui estão alguns dos débitos técnicos identificados:
+
+- **Limpeza do código**: O código continua muito poluido, preciso melhorar mais
+- **Cobertura de Testes**: A cobertura de testes ainda está abaixo do ideal. Testes unitários e de integração adicionais são necessários para aumentar a confiabilidade do sistema.
+- **Tratamento de Erros**: A gestão e o tratamento de exceções podem ser aprimorados. Atualmente, o tratamento de erros é básico e deve ser refinado para cobrir mais casos de uso e fornecer feedback mais claro ao usuário.
+- **Documentação**: Embora a documentação básica exista, é necessário expandir as descrições de métodos e classes no JavaDoc para facilitar a compreensão e manutenção do código.
+- **Otimização de Desempenho**: Algumas operações de conversão de vídeo podem ser otimizadas para reduzir o tempo de processamento e o uso de recursos.
+- **Controle de Versões**: Implementar um fluxo de trabalho de versionamento mais robusto, como GitFlow, para melhorar a colaboração entre desenvolvedores e gerenciar melhor as releases.
+- **Configurações de Ambiente**: Centralizar e simplificar as configurações de diferentes ambientes (desenvolvimento, testes, produção) para facilitar a implantação e manutenção.
+
+
+Estas áreas deverão ser abordadas em futuras iterações do projeto para garantir uma aplicação mais robusta e de fácil manutenção.
